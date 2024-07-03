@@ -16,6 +16,7 @@ export const garlic = "garlic";
 export const redOnion = "red onion";
 export const yellowOnion = "yellow onion";
 export const ginger = "ginger";
+export const cardamom = "cardamom";
 
 export const coriander = "coriander";
 export const turmeric = "turmeric"; 

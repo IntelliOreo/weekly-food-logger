@@ -1,4 +1,33 @@
 /**
+ * A specialized set that logs a warning message if the item added is not in the constant list.
+ * 
+ * @class ConstantSet
+ * @extends {Set}
+ */
+
+export class ConstantSet extends Set {
+  constructor(args) {
+    super();
+    args.forEach(item => {
+      if (item === undefined || item === null) {
+        console.warn(`WARNING: An item you provided could not be added because it is not in the constant list. You may want to modify logSet to display all details in the logAll function.`);
+        console.warn();
+      } else {
+        super.add(item);    
+      }
+    });
+  }
+
+  add(item) {
+    if (item === undefined || item === null) {
+      console.warn(`WARNING: An item you provided could not be added because it is not in the constant list. You may want to modify logSet to display all details in the logAll function.`);
+    } else {
+      return super.add(item);
+    }
+  }
+}
+
+/**
  * Combines multiple sets into one set.
  *
  * @param {...Set<string>} sets - An unspecified number of sets, each containing strings.

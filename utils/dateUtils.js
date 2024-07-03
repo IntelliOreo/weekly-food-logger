@@ -7,7 +7,7 @@
 export const formatDate = (month, day) => {
   const monthStr = month.toString().padStart(2, '0');
   const dayStr = day.toString().padStart(2, '0');
-  return `D${monthStr}${dayStr}`;
+  return `d${monthStr}${dayStr}`;
 };
 
 /**
