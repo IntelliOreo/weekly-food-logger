@@ -4,7 +4,7 @@ import { ConstantSet } from './utils/setUtils.js';
 
 globalThis.d0701 = new ConstantSet([items.spinach, items.peas, items.redPeppers, items.carrots, items.garlic, items.lemon, items.mungBeans, items.coriander, items.blackPeppercorn, items.avocado, items.kiwi, items.cucumber, items.apple, items.coffee, items.pistachio, items.cumin]);
 
-globalThis.d0702 = new ConstantSet([items.avocado, items.kiwi, items.chocolate, items.coffee, items.greenTea, items.cardamom]);
+globalThis.d0702 = new ConstantSet([items.avocado, items.kiwi, items.chocolate, items.coffee, items.greenTea, items.cardamom, items.coriander]);
 
 logAll(7,1);
 

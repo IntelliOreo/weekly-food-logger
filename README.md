@@ -10,7 +10,7 @@ export const spinach = "spinach";
 export const peas = "peas";
 // Add more items as needed
 ```
-If you add items that are not in the constant list, you will receive the following warning message:` WARNING: An item you provided could not be added because it is not in the constant list. You may want to modify logSet to display all details in the logAll function.`
+If you add items that are not in the constant list, you will receive the following warning message:` WARNING: An item you provided could not be added because it is not in the constant list.`
 
 ## Logging Daily Sets
 

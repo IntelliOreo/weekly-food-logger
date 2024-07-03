@@ -8,19 +8,27 @@
 export class ConstantSet extends Set {
   constructor(args) {
     super();
+    let error;
     args.forEach(item => {
       if (item === undefined || item === null) {
-        console.warn(`WARNING: An item you provided could not be added because it is not in the constant list. You may want to modify logSet to display all details in the logAll function.`);
-        console.warn();
+        error = true; 
       } else {
         super.add(item);    
       }
     });
+    if(error){
+      console.warn(`WARNING: An item you submitted could not be added because it is not part of the constant list.`);
+      console.warn();
+      console.warn(`>> The following items were received: ${args}.`)
+      console.warn();
+      console.warn(`>> Identify the missing item by checking for double or trailing commas.`);
+      console.warn();
+    }
   }
 
   add(item) {
     if (item === undefined || item === null) {
-      console.warn(`WARNING: An item you provided could not be added because it is not in the constant list. You may want to modify logSet to display all details in the logAll function.`);
+      console.warn(`WARNING: An item you provided could not be added because it is not in the constant list.`);
     } else {
       return super.add(item);
     }
