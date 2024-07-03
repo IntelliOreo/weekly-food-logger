@@ -1,12 +1,14 @@
 export const spinach = "spinach";
 export const kale = "kale";
 export const broccoli = "broccoli";
+export const haricotsVerts = "haricots verts";
 
 export const peas = "peas";
 export const chickpeas = "chickpeas";
 export const pistachio = 'pistachio';
 export const mungBeans = "mung beans";
 export const azukiBean = "azuki bean";
+export const oatmeal = "oatmeal";
 
 export const redPeppers = "red peppers";
 export const yellowPeppers = "yellow peppers";
@@ -17,6 +19,7 @@ export const redOnion = "red onion";
 export const yellowOnion = "yellow onion";
 export const ginger = "ginger";
 export const cardamom = "cardamom";
+export const sesame = "sesame";
 
 export const coriander = "coriander";
 export const turmeric = "turmeric"; 
@@ -24,6 +27,10 @@ export const cumin = "cumin";
 export const blackPeppercorn = "black peppercorn";
 export const spanishOlives = "Spanish olives"; 
 export const kalamataOlives = "Kalamata olives"; 
+export const asian_solomonsSeal = "Solomon's seal"; // 玉竹
+export const asian_huangqi = "huangqi"; // 黃耆
+export const asian_daylily = "daylily"; // 金針花
+export const gojiBerries = "goji berries";
 
 export const avocado = "avocado";
 export const kiwi = "kiwi";
