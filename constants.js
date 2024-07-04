@@ -9,6 +9,8 @@ export const pistachio = 'pistachio';
 export const mungBeans = "mung beans";
 export const azukiBean = "azuki bean";
 export const oatmeal = "oatmeal";
+export const soybeans = "soybeans";
+export const blackbeans = "black beans";
 
 export const redPeppers = "red peppers";
 export const yellowPeppers = "yellow peppers";
@@ -41,6 +43,7 @@ export const lime = "lime";
 export const lemon = "lemon";
 export const apple = "apple";
 export const banana = "banana";
+export const blueberries = "blueberries";
 
 export const coffee = "coffee";
 export const greenTea = "green tea";

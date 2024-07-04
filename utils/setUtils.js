@@ -61,6 +61,9 @@ export const logSet = (str, set, details = false) => {
   if(details){
     let numbers = 1;
     set.forEach((item) => {
+      if(numbers < 10){
+        numbers = numbers.toString().padStart(2, '0');
+      }
       console.log(' ' + numbers + '. ' + item);
       numbers++;
     });

@@ -6,7 +6,7 @@ globalThis.d0701 = new ConstantSet([items.spinach, items.peas, items.redPeppers,
 
 globalThis.d0702 = new ConstantSet([items.avocado, items.kiwi, items.chocolate, items.coffee, items.greenTea, items.cardamom, items.coriander, items.apple, items.carrots, items.spinach, items.peas, items.redPeppers, items.sesame]);
 
-globalThis.d0703 = new ConstantSet([items.asian_huangqi, items.gojiBerries, items.asian_daylily, items.asian_solomonsSeal, items.kale, items.haricotsVerts, items.tomatoes, items.oatmeal]);
+globalThis.d0703 = new ConstantSet([items.asian_huangqi, items.gojiBerries, items.asian_daylily, items.asian_solomonsSeal, items.kale, items.haricotsVerts, items.tomatoes, items.oatmeal, items.apple, items.soybeans, items.broccoli, items.sesame, items.blackbeans, items.blueberries]);
 
 logAll(7,1);
 
