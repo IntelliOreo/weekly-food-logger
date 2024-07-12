@@ -28,3 +28,12 @@ Call the logAll function with the starting month and day to log daily and weekly
 logAll(7, 1); // Starts tallying from July 1st
 
 ```
+
+#### Rainbow colors
+
+
+- Red: Rich in lycopene – tomatoes, red peppers, red apples, strawberries, watermelon.
+- Blue and purple: Rich in anthocyanins – eggplant, beetroot, purple cabbage, blackberries, blueberries, grapes.
+- Orange and yellow: Rich in beta-carotene – carrots, sweet potato, orange, pineapple.
+- Green: Rich in isothiocyanates – spinach, broccoli, kiwi, avocado.
+- Brown/White: Rich in sulfides, thiols – garlic, onion, leeks, scallions.

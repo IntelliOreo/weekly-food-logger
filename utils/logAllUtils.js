@@ -1,5 +1,5 @@
 import { formatDate, getDaysInMonth } from './dateUtils.js';
-import { makeCombineSets, logSet } from './setUtils.js';
+import { makeCombineSets, logSet, ConstantSet } from './setUtils.js';
 /**
  * Function to loop over all dates from 0101 to 1231, log variables if they exist
  * and are of type Set, and then combine sets into weekly lists starting from a specified date.
@@ -21,7 +21,13 @@ export const logAll = (startMonth = 1, startDay = 1) => {
       // Check if the variable exists
       if (globalThis[variableName] && globalThis[variableName] instanceof Set) {
         logSet(`Date ${month}/${day}`, globalThis[variableName]);
+        // handle the starting week
+        while(currentWeek.length >= 7){
+          currentWeek.shift();
+        }
         currentWeek.push(globalThis[variableName]);
+      } else {
+        currentWeek.push(new ConstantSet([]));
       }
       
       // Start tallying after the specified start date
@@ -36,7 +42,7 @@ export const logAll = (startMonth = 1, startDay = 1) => {
       if (daysCounter === 7) {
         if (currentWeek.length > 0) {
           const weeklySet = makeCombineSets(...currentWeek);
-          logSet(` Weekly tally`, weeklySet, true);
+          if(weeklySet.size > 0)logSet(` Weekly tally`, weeklySet, true);
         }
         currentWeek = [];
         daysCounter = 0;
