@@ -3,6 +3,9 @@ export const kale = "kale";
 export const broccoli = "broccoli";
 export const haricotsVerts = "haricots verts";
 export const cabbage = "cabbage";
+export const romainLettuce = "romain lettuce";
+export const califlower = "califlower";
+export const artichokes = "artichokes";
 
 export const peas = "peas";
 export const chickpeas = "chickpeas";
@@ -15,6 +18,10 @@ export const blackbeans = "black beans";
 export const potatoes = "potatoes";
 export const purplepotatoes = "purple potatoes";
 export const edamame = "edamame";
+export const purpleRice = "purple rice";
+export const corn = "corn";
+export const quinoa = "quinoa";
+export const favaBeans = "fava beans";
 
 export const redPeppers = "red peppers or paprika";
 export const yellowPeppers = "yellow peppers";
@@ -38,6 +45,12 @@ export const lotusRoots = "lotus roots";
 export const cinnamon = "cinnamon";
 export const nutmeg = "nutmeg";
 export const cloves = "cloves";
+export const zucchini ="zucchini";
+export const beets = "beets";
+export const capers = "capers";
+export const mint = "mint";
+export const basil = "basil";
+export const jalapeño = "jalapeño";
 
 export const walnuts = "walnuts";
 export const almonds = "almonds";
@@ -64,12 +77,16 @@ export const cherries = "cherries";
 export const tomatoes = "tomatoes";
 export const lime = "lime";
 export const lemon = "lemon";
-export const apple = "apple";
+export const apple = "red apple";
+export const greenApples = "green apples";
 export const banana = "banana";
 export const blueberries = "blueberries";
 export const cranberries = "cranberries";
 export const mango = "mango";
 export const mandarin = "mandarin";
+export const papayas = "papayas";
+export const watermelon = "watermelon";
+
 
 export const coffee = "coffee";
 export const greenTea = "green tea";
@@ -82,4 +99,7 @@ export const blackCarrotJuice = "black carrot juice";
 
 export const fermentedSoybeans = "fermented Soybeans";
 export const kimchi = "kimchi";
+export const pickledPepino = "pickled pepino";
+
+export const heartOfPalm = "heart of palm";
 

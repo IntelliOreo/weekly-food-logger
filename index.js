@@ -209,6 +209,12 @@ globalThis.d0710 = new ConstantSet([
   items.garlic,
 ]);
 
-globalThis.d0712 = new ConstantSet([items.apple]);
+globalThis.d0712 = new ConstantSet([items.apple, items.zucchini, items.mango, items.eggPlants, items.tomatoes, items.redPeppers, items.beets, items.yellowPeppers, items.chickpeas, items.blackbeans, items.spinach, items.purpleRice, items.redOnion, items.heartOfPalm, items.cucumbers, items.capers, items.edamame, items.mushrooms, items.mint, items.greenApples, items.papayas, items.watermelon, items.basil, items.romainLettuce, items.olives, items.pistachios, items.corn, items.califlower, items.artichokes, items.quinoa, items.celery, items.jalapeño, items.papayas, items.pickledPepino, items.favaBeans]); // fogo de chao
 
-logAll(7, 8);
+logAll(7, 1);
+
+
+
+
+
+
