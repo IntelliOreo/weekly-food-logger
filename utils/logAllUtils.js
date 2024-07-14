@@ -5,6 +5,7 @@
     let currentWeek = [];
     let daysCounter = 0;
     let startTallying = false;
+    let count = 0;
 
     // Loop over months and days
     for (let month = 1; month <= 12; month++) {
@@ -26,20 +27,23 @@
           daysCounter++;
           if (globalThis[variableName] && globalThis[variableName] instanceof Set) {
             currentWeek.push(globalThis[variableName]);
+            count++;
           } else {
             currentWeek.push(new ConstantSet([]));
           }
 
           // After every 7 days, combine the sets and start a new week
+          let recordedDays = 0;
           if (daysCounter === 7) {
             if (currentWeek.length > 0) {
               const weeklySet = makeCombineSets(...currentWeek);
               if (weeklySet.size > 0) {
-                logSet(` Weekly tally`, weeklySet, true);
+                logSet(`Weekly tally, recorded ${count} days/ 7 days`, weeklySet, true);
               }
             }
             currentWeek = [];
             daysCounter = 0;
+            count = 0;
           }
         }
       }
