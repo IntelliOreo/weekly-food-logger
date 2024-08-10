@@ -1,6 +1,6 @@
 # Weekly Food Logger
 
-This project logs daily food items and compiles them into weekly lists starting from a specified date. It uses JavaScript sets to manage unique food items and combines them into weekly sets.
+This project logs daily food items and compiles them into weekly lists starting from a specified date. It uses JavaScript sets to manage unique food items and combines them into weekly sets, and also keeps track of the frequency of each item and logs the top most eaten items.
 
 ## Adding Food Items
 
@@ -23,9 +23,9 @@ globalThis.D0702 = new Set([items.avocado, items.kiwi, items.chocolate, items.co
 
 ## Logging Weekly Lists
 
-Call the logAll function with the starting month and day to log daily and weekly sets. If not specified, it defaults to January 1st (01/01).
+Call the logAll function with the starting month and day to log daily and weekly sets. If not specified, it defaults to January 1st (01/01). You can also specify the number of top items to log.
 ```
-logAll(7, 1); // Starts tallying from July 1st
+logAll(7, 1, 10); // Starts tallying from July 1st and logs the top 10 most eaten items
 
 ```
 
